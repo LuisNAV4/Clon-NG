@@ -1,0 +1,14 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+      min-height: 100vh;
+      background:  rgba(47, 49, 65, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    
+  }

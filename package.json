@@ -1,15 +1,13 @@
 {
   "name": "frontend-challenge",
   "version": "0.0.0",
-  "homepage": "https://luisnav4.github.io/frontend-challenge/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:frontend-challenge": "node dist/frontend-challenge/server/server.mjs",
-    "deploy": "npm run build && gh-pages -d dist/frontend-challenge"
+    "deploy": "npm run build  && npx angular-cli-ghpages --dir=dist/frontend-challenge"
   },
   "private": true,
   "dependencies": {
